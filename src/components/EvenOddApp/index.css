@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.white-con {
+  background-color: #fff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-con {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 80vh;
+  width: 50%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-heading {
+  font-size: 40px;
+  color: #0f172a;
+}
+.heading {
+  font-size: 30px;
+  color: #334155;
+}
+.button {
+  background-color: #fff;
+  height: 2rem;
+  width: 8rem;
+  color: #1e293b;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding-top: 20px;
+  font-weight: bold;
+}
